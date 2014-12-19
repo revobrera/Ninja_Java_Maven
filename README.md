@@ -257,5 +257,7 @@ We can see that the versions required for Maven is 3 or greater. So we need to r
   Setting up libgeronimo-osgi-support-java (1.0-2) ...
   Setting up libgeronimo-jpa-2.0-spec-java (1.1-2) ...
   ```
-7. Great! You have successfully set up your environment! Congratulations!
+7. Great! You have successfully set up your environment! 
+
+##Congratulations!
 
