@@ -1,8 +1,8 @@
-Using Ninja framework, Java, Maven & Cloud9 
+Using Ninja Framework, Java, Maven & Cloud9 
 ================
 
 ##Evironment Setup
-Setting up the environment can be the most tedious and sometimes the first milestone to getting things started. If the environment doesn't work properply the first time, it will take some troubelshooting to get over the hurdle. Here are straightforward instructions to getting everything all set up!
+Setting up the environment can be the most tedious and sometimes the first milestone to getting things started. If the environment doesn't work properly the first time, it will take some troubleshooting to get over the hurdle. Here are straight forward instructions to getting everything all set up!
 
 1. Navigate to your Cloud9 and create a new project
 2. Java is setup already in C9 - check the version and type in the command line: `java -version`
