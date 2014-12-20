@@ -259,5 +259,13 @@ We can see that the versions required for Maven is 3 or greater. So we need to r
   ```
 7. Great! You have successfully set up your environment! 
 
-##Congratulations!
+###Congratulations! You did it!
+
+##Maven Archetypes
+These archetypes are blueprints that can create the entire project structure. You will need to follow the following instructions to generate your files/folders. 
+
+  ```command
+  mvn archetype:generate -DarchetypeGroupId=org.ninjaframework -DarchetypeArtifactId=ninja-servlet-archetype-simple
+  ```
+It will then download necessary dependencies and needed files.
 
