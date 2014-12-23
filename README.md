@@ -315,6 +315,22 @@ To generate the compiled classes for the first time:
   ```command
   mvn clean install
   ```
+NOTE: A significant part of MAVEN is the use of repositories to manage jar files across different projects.
+Set up JAVA_HOME in Cloud9:
+
+1. cd to `/home` folder
+2. `vi .bash_aliases` 
+3. In the vi editor, navigate the cursor to the last line.
+4. Type `a` to start appending text after the cursor.
+5. Type in a new line, `alias JAVA_HOME=usr/lib/jvm/java-1.7.0-openjdk-amd64`
+6. Press the `Esc` key
+7. 7. Type `ZZ` to exit and save changes.
+
+
+  ```command
+  
+  ```
+
 To start Ninja's SuperDevMode:
 
   ```command
