@@ -262,10 +262,46 @@ We can see that the versions required for Maven is 3 or greater. So we need to r
 ###Congratulations! You did it!
 
 ##Maven Archetypes
-These archetypes are blueprints that can create the entire project structure. You will need to follow the following instructions to generate your files/folders. 
+These archetypes are blueprints that create the entire project structure. You will need to follow the following instructions to generate your files/folders. 
 
   ```command
   mvn archetype:generate -DarchetypeGroupId=org.ninjaframework -DarchetypeArtifactId=ninja-servlet-archetype-simple
   ```
-It will then download necessary dependencies and needed files.
+It will then download necessary dependencies and needed files. Maven will then ask to configure your project. here's an example of mine:
 
+  ```command
+  Define value for property 'groupId': : org.gizmoose.ninjaven
+  Define value for property 'artifactId': : ninjaven
+  Define value for property 'version':  1.0-SNAPSHOT: : 0.1.0
+  Define value for property 'package':  org.gizmoose.ninjaven: : org.gizmoose.ninjaven:
+  ```
+You will then be asked to confirm to build the project:
+
+  ```command
+  Confirm properties configuration:
+  groupId: org.gizmoose.ninjaven
+  artifactId: ninjaven
+  version: 0.1.0
+  package: org.gizmoose.ninjaven:
+   Y: : 
+  [INFO] ----------------------------------------------------------------------------
+  [INFO] Using following parameters for creating project from Archetype: ninja-servlet-archetype-simple:4.0.2
+  [INFO] ----------------------------------------------------------------------------
+  [INFO] Parameter: groupId, Value: org.gizmoose.ninjaven
+  [INFO] Parameter: artifactId, Value: ninjaven
+  [INFO] Parameter: version, Value: 0.1.0
+  [INFO] Parameter: package, Value: org.gizmoose.ninjaven:
+  [INFO] Parameter: packageInPathFormat, Value: org/gizmoose/ninjaven:
+  [INFO] Parameter: package, Value: org.gizmoose.ninjaven:
+  [INFO] Parameter: version, Value: 0.1.0
+  [INFO] Parameter: groupId, Value: org.gizmoose.ninjaven
+  [INFO] Parameter: artifactId, Value: ninjaven
+  [INFO] project created from Archetype in dir: /home/ubuntu/workspace/ninjaven
+  [INFO] ------------------------------------------------------------------------
+  [INFO] BUILD SUCCESS
+  [INFO] ------------------------------------------------------------------------
+  [INFO] Total time: 6:43.496s
+  [INFO] Finished at: Sat Dec 20 01:05:12 UTC 2014
+  [INFO] Final Memory: 15M/907M
+  [INFO] ------------------------------------------------------------------------
+  ```
