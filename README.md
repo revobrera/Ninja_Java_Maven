@@ -267,7 +267,7 @@ These archetypes are blueprints that create the entire project structure. You wi
   ```command
   mvn archetype:generate -DarchetypeGroupId=org.ninjaframework -DarchetypeArtifactId=ninja-servlet-archetype-simple
   ```
-It will then download necessary dependencies and needed files. Maven will then ask to configure your project. here's an example of mine:
+It will then download necessary dependencies and needed files. Maven will then ask to configure your project. Here's an example of mine:
 
   ```command
   Define value for property 'groupId': : org.gizmoose.ninjaven
