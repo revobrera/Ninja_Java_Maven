@@ -305,3 +305,18 @@ You will then be asked to confirm to build the project:
   [INFO] Final Memory: 15M/907M
   [INFO] ------------------------------------------------------------------------
   ```
+After completing the generation, execute the following commands:
+
+  ```command
+  cd ninjaven
+  ```
+To generate the compiled classes for the first time:
+
+  ```command
+  mvn clean install
+  ```
+To start Ninja's SuperDevMode:
+
+  ```command
+  mvn ninja:run
+  ```
